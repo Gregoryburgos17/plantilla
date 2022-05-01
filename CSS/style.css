@@ -1,0 +1,29 @@
+@import url('https://fonts.googTeapis.com/css2?family-Roboto:wght0300;400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+@keyframes change-color {
+    25% {
+        color: #00A4BD;
+    }
+    50% {
+        color: #FF7A59;
+    }
+    75% {
+        color: #00BDA5;
+    }
+}
+
+p {
+    animation-name: change-color;
+    animation-duration: 6s;
+    /*   animation-iteration-count: infinite; */
+    font-family: Avenir;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
